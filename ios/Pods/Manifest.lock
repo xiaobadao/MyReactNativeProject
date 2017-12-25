@@ -25,10 +25,25 @@ PODS:
     - React/cxxreact_legacy
   - React/Core (0.51.0):
     - yoga (= 0.51.0.React)
+  - React/CxxBridge (0.51.0):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.51.0):
+    - boost
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
   - React/cxxreact_legacy (0.51.0):
     - React/jschelpers_legacy
+  - React/DevSupport (0.51.0):
+    - React/Core
+    - React/RCTWebSocket
   - React/fishhook (0.51.0)
+  - React/jschelpers (0.51.0):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
   - React/jschelpers_legacy (0.51.0)
+  - React/PrivateDatabase (0.51.0)
   - React/RCTBlob (0.51.0):
     - React/Core
   - React/RCTNetwork (0.51.0):
@@ -47,6 +62,8 @@ DEPENDENCIES:
   - GLog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
@@ -72,6 +89,6 @@ SPEC CHECKSUMS:
   React: 352f02f1db6e4744f9a758527e13e3fdefbbd6ba
   yoga: b5d96400ca8b2936965a7a6516da7c1177f432a3
 
-PODFILE CHECKSUM: 456ae2d3a36b22affd7e76f97400e858f8a82534
+PODFILE CHECKSUM: f1310ffba6b0d4e0b594b34b3a2c8defebcec07b
 
 COCOAPODS: 1.4.0.beta.2

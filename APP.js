@@ -1,14 +1,29 @@
-import React,{Component} from 'react';
 
-import {View} from 'react-native';
+import React, { Component } from 'react';
+import {StyleSheet ,Text, View } from 'react-native';
+
+
+const  styles = StyleSheet.create({
+    bigblue:{
+        color:'blue',
+        fontWeight:'bold',
+        fontSize:30,
+    },
+    red:{
+        color:'red',
+    },
+});
 
 export default class SectionListBasics extends Component {
-    render() {
-        return (
-            <View>
 
+    render(){
+        return(
+            <View>
+                <Text style={styles.red}> just red</Text>
+                <Text style={styles.bigblue}> just bigblue</Text>
+                <Text style={[styles.bigblue,styles.red]}> just bigblue just red</Text>
+                <Text style={[styles.red,styles.bigblue]}>just red just bigblue</Text>
             </View>
         );
-
     }
 }
