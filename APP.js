@@ -1,28 +1,44 @@
 
-import React, { Component } from 'react';
-import {StyleSheet ,Text, View } from 'react-native';
+import React, { Component ,PropTypes } from 'react';
+import { NavigatorIOS,Text, TouchableHighlight, View} from 'react-native';
 
-
-const  styles = StyleSheet.create({
-    bigblue:{
-        color:'blue',
-        fontWeight:'bold',
-        fontSize:30,
-    },
-    red:{
-        color:'red',
-    },
-});
-
-export default class SectionListBasics extends Component {
-
+export default class NavigatorIOSApp extends Component{
     render(){
         return(
-            <View>
-                <Text style={styles.red}> just red</Text>
-                <Text style={styles.bigblue}> just bigblue</Text>
-                <Text style={[styles.bigblue,styles.red]}> just bigblue just red</Text>
-                <Text style={[styles.red,styles.bigblue]}>just red just bigblue</Text>
+            <NavigatorIOS
+                initialRoute = {{
+                    component:MyScene,
+                    title:'My Initial Scene',
+                }}
+                style = {{flex:1}}
+            />
+        );
+    }
+}
+
+class MyScene extends Component{
+    static propTypes = {
+        // title:PropTypes.string.isRequired,
+        // navigator:PropTypes.object.isRequired,
+        // passProps: { myProp: 'foo' },
+    }
+    constructor(props,context){
+        super(props,context);
+        this._onForward = this._onForward.bind(this);
+    }
+
+    _onForward(){
+        this.props.navigator.push({
+            title:'Scene'+nextIndex,
+        });
+    }
+    render(){
+        return(
+            <View >
+                <Text>Current Scene: { this.props.title }</Text>
+                <TouchableHighlight onPress={this._onForward}>
+                    <Text >Tap me to load the next scene</Text>
+                </TouchableHighlight>
             </View>
         );
     }
