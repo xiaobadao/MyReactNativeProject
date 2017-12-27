@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a881f53-9482-4d58-ad5e-6adb2cc2935d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimatedAPP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TouchAction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navigator_app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/CFGradientLabel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/CFGradientLabel.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/MYRN.xcworkspace/xcuserdata/apple.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/MYRN.xcworkspace/xcuserdata/apple.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP.js" afterPath="$PROJECT_DIR$/APP.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/MYRN.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/MYRN.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/MYRN/AppDelegate.m" afterPath="$PROJECT_DIR$/ios/MYRN/AppDelegate.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/MYRN/ViewController.m" afterPath="$PROJECT_DIR$/ios/MYRN/ViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/Podfile" afterPath="$PROJECT_DIR$/ios/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/Podfile.lock" afterPath="$PROJECT_DIR$/ios/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,8 +47,8 @@
       <file leaf-file-name="TouchAction.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TouchAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#1#42#0" expanded="true" />
               </folding>
@@ -112,7 +105,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
+    <option name="x" value="216" />
     <option name="y" value="23" />
     <option name="width" value="1064" />
     <option name="height" value="770" />
@@ -185,15 +178,15 @@
       <option name="presentableId" value="Default" />
       <updated>1513930075131</updated>
       <workItem from="1513930076374" duration="2853000" />
-      <workItem from="1514174607181" duration="16968000" />
+      <workItem from="1514174607181" duration="17811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19821000" />
+    <option name="totallyTimeSpent" value="20664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="23" width="1064" height="770" extended-state="0" />
+    <frame x="216" y="23" width="1064" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18984963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -203,7 +196,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -428,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TouchAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#1#42#0" expanded="true" />
           </folding>
